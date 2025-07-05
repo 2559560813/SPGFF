@@ -1,0 +1,5 @@
+DATASET:
+  NAME: "ImageNet"
+  
+TEST:
+  FINAL_MODEL: "last_step"
