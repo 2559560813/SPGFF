@@ -2,8 +2,6 @@
 Submit to NeuroComputing: Text-Guided Visual Prompt Learning with Semantic Prompt Generation and Feature Fusion
 
 
-This readme are mostly follows the the same Guide in [ProVP](https://github.com/MCG-NJU/ProVP).
-
 # How to Run
 
 ## GPU memory needed
@@ -133,4 +131,9 @@ To get the average performance on the new classes, run
 ```bash
 python parse_test_res.py output/base2new/new/SPGFF/imagenet/vit_b16_ep10_16shots --test-log
 ```
+
+
+
+## Acknowledgement
+Our codes are built on top of [CoOp](https://github.com/KaiyangZhou/CoOp) and [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch).
 
