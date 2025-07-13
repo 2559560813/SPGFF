@@ -30,7 +30,7 @@ MODEL:
     NAME: "ViT-L/14"
 
 TRAINER:
-  VPT:
+  SPGFF:
     N_CTX_VISION: 8
     PREC: "fp16"
     PROMPT_DEPTH_VISION: 24
