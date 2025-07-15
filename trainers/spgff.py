@@ -119,7 +119,7 @@ class CrossAttnBlock(nn.Module):
 
 
 class TextGuidedDeepPrompt(nn.Module):
-    def __init__(self, cfg, clip_model, text_dim, hidden_dim=1024):
+    def __init__(self, cfg, clip_model, text_dim, hidden_dim=32):
         super().__init__()
         width = clip_model.visual.width
         self.width = width
